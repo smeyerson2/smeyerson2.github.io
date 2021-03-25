@@ -17,6 +17,7 @@ h1 {
     border: double;
     border-collapse: separate;
     border-spacing: 15px 50px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -50,4 +51,15 @@ nav {
   content: "";
   clear: both;
   display: table;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 0px;
+  text-align: center;
 }
